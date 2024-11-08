@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#output {
+    margin-top: 20px;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+}

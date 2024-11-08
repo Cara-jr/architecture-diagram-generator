@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Architecture Diagram Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Architecture Diagram Generator</h1>
+    <input type="file" id="codeFile" accept=".py,.java,.js,.cs">
+    <button onclick="uploadFile()">Generate Diagram</button>
+    <div id="output">
+        <h2>Generated Diagram</h2>
+        <img id="diagramImage" src="" alt="Diagram will appear here">
+        <h3>Pseudocode</h3>
+        <pre id="pseudocode"></pre>
+        <h3>UML Code</h3>
+        <pre id="umlCode"></pre>
+        <button onclick="downloadFiles()">Download All Files</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
