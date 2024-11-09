@@ -227,8 +227,4 @@ This project is licensed under the [MIT License](LICENSE).
 - **PlantUML**: For diagram generation capabilities.
 - **Claude AI**: For advanced language processing.
 
----
-
-**Note**: Replace placeholders like `yourusername`, `your-unique-s3-bucket-name`, and API endpoints with your actual configurations. Ensure all AWS resources are properly secured and follow best practices for IAM roles and policies.
-
----
+--
